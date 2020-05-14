@@ -62,7 +62,7 @@
     </HBox>
     <TextField GridPane.rowIndex="1" GridPane.columnIndex="0"/>
     <PasswordField GridPane.rowIndex="1" GridPane.columnIndex="1"/>
-    <ComboBox GridPane.rowIndex="1" GridPane.columnIndex="2" GridPane.columnSpan="3">
+    <ComboBox GridPane.rowIndex="1" GridPane.columnIndex="2" GridPane.columnSpan="3" editable="true">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="This is Option 1 This is Option 1" />
